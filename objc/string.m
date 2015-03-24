@@ -109,4 +109,13 @@ NSString *str = [@"あいうえお" substringWithRange:NSMakeRange(1,3)];
 		NSString *str2 = @"ge";
 
 		NSString *val = [str1 stringByAppendingString:str2];
-			val → @"hoge"
+			val → @"hoge";
+			
+			
+			//copy the string 
+		NSString *firstName = @"aka";
+				
+		NSString *copy = [NSString stringWithString:firstName];
+				
+		NSLog(@"%@ is a copy of %@", copy, firstName);
+			
